@@ -11,18 +11,22 @@ proper sources.
 
 ## Structure
 
-  - src/* : Your source code written in es6.
+  - [src](./src)/* :
+      Your source code written in es6.
 
-  - test/* : Your tests written in es6.
+  - [test](./test/)/* :
+      Your tests written in es6.
 
-  - package.json: Note the use of 6to5 as a prepublish step this will
-                  transpile the code in "src" to "dest".
+  - [package.json](./package.json) :
+      Note the use of 6to5 as a prepublish step this will
+      transpile the code in "src" to "dest".
 
-  - index.js : The "bootstrap" module includes polyfills (which can be
-               optional) and re-exports the contents of "build". Note
-               that source map support is _not_ enabled here so it's easier to
-               debug this without knowledge of how this package was built.
+  - [index.js](./index.js) :
+      The "bootstrap" module includes polyfills (which can be optional) and
+      re-exports the contents of "build". Note that source map support is
+      _not_ enabled here so it's easier to debug this without knowledge of how
+     this package was built.
 
-  - test/entrypoint.js : I Use mocha for testing this file configures
-                         6to5's module loader for testing (which enables
-                         source maps).
+  - [test/entrypoint.js](./test/entrypoint.js) :
+      I Use mocha for testing this file configures 6to5's module loader for
+      testing (which enables source maps).
