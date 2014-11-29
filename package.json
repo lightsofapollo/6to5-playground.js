@@ -1,0 +1,27 @@
+{
+  "name": "6to5playground.js",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm scripts-run prepublish",
+    "prepublish": "6to5 -s -e src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lightsofapollo/6to5-playground.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightsofapollo/6to5-playground.js/issues"
+  },
+  "homepage": "https://github.com/lightsofapollo/6to5-playground.js",
+  "dependencies": {
+    "6to5": "^1.14.4",
+    "source-map-support": "^0.2.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
